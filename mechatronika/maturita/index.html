@@ -1,1 +1,50 @@
-<!doctype html><html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Maturitní příprava</title><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="../../assets/css/styles.css"></head><body><nav class="topbar"><a href="../../">Portál</a><span class="crumb">/</span><a href="../">Mechatronika</a></nav><main class="content"><header class="hero"><div class="eyebrow">4. ROČNÍK · MATURITA</div><h1>Maturitní příprava</h1><p class="lead">Učivo propojené s interaktivními příklady. Nejen vědět co, ale rozumět proč.</p></header><section class="cards"><div class="card"><span class="tag">01–04</span><h2>Kombinační logika</h2><p>Připravujeme.</p></div><a class="card" href="05a-pamet-rs/"><span class="tag">05A · FUNKČNÍ PROTOTYP</span><h2>Od kombinační logiky k paměti →</h2><p>Stav, zpětná vazba, RS a START/STOP.</p></a></section></main></body></html>
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Maturitní příprava | Mechatronika a robotika</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/css/styles.css">
+<style>
+.question-list{display:grid;gap:12px;margin-top:36px}
+.question{display:grid;grid-template-columns:72px 1fr auto;gap:22px;align-items:center;background:var(--panel);backdrop-filter:blur(12px);padding:24px 28px;color:#fff;text-decoration:none;transition:.18s}
+.question:hover{transform:translateX(5px);text-decoration:none;color:#fff;background:#001b2299}
+.question .n{font-size:1.55rem;font-weight:700;color:var(--cyan)}
+.question h2{font-size:1.25rem;margin:0 0 5px}
+.question p{margin:0;color:var(--muted);font-size:.9rem}
+.question .arrow{color:var(--yellow);font-size:1.3rem}
+.question.active{position:relative}
+.question.active:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--yellow)}
+.question.soon{opacity:.72}
+.intro-note{max-width:850px}
+@media(max-width:650px){.question{grid-template-columns:48px 1fr;padding:20px}.question .arrow{display:none}}
+</style>
+</head>
+<body>
+<nav class="topbar"><a href="../../">Výukový portál</a><span class="crumb">/</span><a href="../">Mechatronika a robotika</a><span class="crumb">/ Maturita</span></nav>
+<main class="content">
+<header class="hero">
+<div class="eyebrow">4. ROČNÍK · MATURITNÍ PŘÍPRAVA</div>
+<h1>Číslicová technika a logika</h1>
+<p class="lead intro-note">Osm témat, která na sebe navazují. Od reprezentace informace přes logické rozhodování až k obvodům, které si pamatují stav a pracují se sekvencí.</p>
+</header>
+
+<section>
+<div class="kicker">MATURITNÍ OTÁZKY</div>
+<div class="question-list">
+<div class="question soon"><span class="n">01</span><div><h2>Číselné soustavy</h2><p>Jak počítač zapisuje čísla a jak mezi soustavami převádět.</p></div><span class="arrow">→</span></div>
+<div class="question soon"><span class="n">02</span><div><h2>Kódy a kódování dat</h2><p>Jak dostávají bity význam a jak reprezentujeme různé druhy informací.</p></div><span class="arrow">→</span></div>
+<div class="question soon"><span class="n">03</span><div><h2>Základní logické funkce</h2><p>AND, OR, NOT a další stavební kameny logického rozhodování.</p></div><span class="arrow">→</span></div>
+<div class="question soon"><span class="n">04</span><div><h2>Kombinační logické obvody</h2><p>Od slovního zadání přes tabulku a rovnici k minimalizaci a realizaci.</p></div><span class="arrow">→</span></div>
+<a class="question active" href="05-sekvencni-logika/"><span class="n">05</span><div><h2>Základní sekvenční logické obvody, klopné obvody</h2><p>Stav, paměť, zpětná vazba, RS, synchronizace a další klopné obvody.</p></div><span class="arrow">→</span></a>
+<div class="question soon"><span class="n">06</span><div><h2>Sekvenční logické obvody, složitější celky, registry, čítače</h2><p>Jak z jednoduchých paměťových prvků vznikají složitější sekvenční systémy.</p></div><span class="arrow">→</span></div>
+<div class="question soon"><span class="n">07</span><div><h2>Další maturitní téma</h2><p>Doplníme podle přesného znění maturitních otázek.</p></div><span class="arrow">→</span></div>
+<div class="question soon"><span class="n">08</span><div><h2>Další maturitní téma</h2><p>Doplníme podle přesného znění maturitních otázek.</p></div><span class="arrow">→</span></div>
+</div>
+</section>
+
+<footer class="footer">VOŠ, SPŠ a SOŠ Varnsdorf · Mechatronika a robotika</footer>
+</main>
+</body>
+</html>
